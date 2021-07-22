@@ -1,0 +1,45 @@
+{
+  "canisters": {
+    "hello_icp": {
+      "main": "src/hello_icp/main.mo",
+      "type": "motoko"
+    },
+    "hello_i": {
+      "main": "src/hello_i/main.mo",
+      "type": "motoko"
+    },
+    "hello_ic": {
+      "main": "src/hello_ic/main.mo",
+      "type": "motoko"
+    },
+    "identity": {
+      "main": "src/identity/main.mo",
+      "type": "motoko"
+    },
+    "hello_cycles": {
+      "main": "src/hello_cycles/main.mo",
+      "type": "motoko"
+    },
+    "deposit_cycles": {
+      "main": "src/deposit_cycles/main.mo",
+      "type": "motoko"
+    },
+    "canister_status": {
+      "main": "src/canister_status/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.0",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
