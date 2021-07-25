@@ -27,6 +27,26 @@
     "canister_status": {
       "main": "src/canister_status/main.mo",
       "type": "motoko"
+    },
+    "array_test": {
+      "main": "src/array_test/main.mo",
+      "type": "motoko"
+    },
+    "hash_map": {
+      "main": "src/hash_map/main.mo",
+      "type": "motoko"
+    },
+    "err": {
+      "main": "src/err/main.mo",
+      "type": "motoko"
+    },
+    "publish_subscribe": {
+      "main": "src/publish_subscribe/subscriber.mo",
+      "type": "motoko"
+    },
+    "cycles_bank": {
+      "main": "src/cycles_management/test.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
@@ -37,7 +57,7 @@
   "dfx": "0.8.0",
   "networks": {
     "local": {
-      "bind": "127.0.0.1:8000",
+      "bind": "127.0.0.1:8009",
       "type": "ephemeral"
     }
   },
