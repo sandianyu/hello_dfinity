@@ -47,6 +47,10 @@
     "cycles_bank": {
       "main": "src/cycles_management/test.mo",
       "type": "motoko"
+    },
+    "msg_caller": {
+      "main": "src/msg_caller/main.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
