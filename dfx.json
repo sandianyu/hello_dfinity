@@ -51,6 +51,10 @@
     "msg_caller": {
       "main": "src/msg_caller/main.mo",
       "type": "motoko"
+    },
+    "list": {
+      "main": "src/list/main.mo",
+      "type": "motoko"
     }
   },
   "defaults": {

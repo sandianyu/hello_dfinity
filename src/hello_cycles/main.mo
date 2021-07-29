@@ -1,5 +1,7 @@
 import Nat64 "mo:base/Nat64";
 import Cycles "mo:base/ExperimentalCycles";
+import Debug "mo:base/Debug";
+import Nat "mo:base/Nat";
 
 // shared(msg) actor class HelloCylces (
 //   capacity: Nat
@@ -27,5 +29,9 @@ import Cycles "mo:base/ExperimentalCycles";
 //     return currentOwner;
 //   };
 // };
-shared(msg) actor class HelloCylces () {
+actor {
+  public shared(msg) func wallet_balance(): async Nat {
+    Debug.print("canister hello_cylces: " # Nat.toText(Cycles.balance()));
+    return Cycles.balance();
+  };
 };
