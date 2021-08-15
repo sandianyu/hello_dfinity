@@ -55,6 +55,10 @@
     "list": {
       "main": "src/list/main.mo",
       "type": "motoko"
+    },
+    "nat": {
+      "main": "src/Nat/main.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
